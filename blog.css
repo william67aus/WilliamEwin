@@ -1,0 +1,162 @@
+/* Background */
+body {
+  background-image: url("img/beach.png");
+  background-size: cover;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Heading Text */
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: knewave;
+  font-size: 150;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+/* Other Text */
+h2 {
+  font-family: knewave;
+  font-size: 50;
+
+}
+
+h3 {
+  font-size: 40;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25;
+}
+
+body {
+  color: white;
+
+}
+p.text {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 10px;
+
+}
+.diff {
+  color: rgb(218, 219, 231);
+}
+.difff {
+  background-color: rgb(39, 39, 65);
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+p.textt {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/*Image Effects*/
+img {
+
+  height: auto;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pol {
+  margin-top: 200px;
+  margin-bottom: 400px;
+}
+
+.row {
+  display: flex;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 20 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 250px;
+
+}
+
+.column img {
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+/*Max & Min Width of Images*/
+
+/*padding*/
+body {
+  padding: 60px;
+}
+
+/* Video Effects */
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9*/
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Image Rotation*/
+div.a {
+  transform: rotate(2deg);
+}
+
+div.b {
+  transform: rotate(-1deg);
+}
+
+div.c {
+  transform: rotate(5deg);
+}
+
+/* Website 2 */
+.website2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.border {
+  background-color: rgb(83, 85, 92);
+  opacity: 0.8;
+  border-radius: 10px;
+}
+/* lINKS */
+.link {
+  text-align: center;
+ 
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
